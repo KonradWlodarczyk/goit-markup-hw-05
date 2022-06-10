@@ -575,6 +575,7 @@ ul {
   background-color: rgba(33, 150, 243, 0.9);
   transform: translateY(100%);
   transition: transform 250ms ease;
+  z-index: 900;
 }
 .overlay p {
   font-size: 18px;
@@ -587,4 +588,9 @@ ul {
 }
 .offer-list-item:hover .overlay {
   transform: translateY(0);
+}
+.offer-title-text {
+  position: relative;
+  z-index: 1001;
+  background-color: #fff;
 }
