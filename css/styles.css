@@ -551,6 +551,9 @@ ul {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
+  position: relative;
+  z-index: 1001;
+  background-color: #fff;
 }
 .offer-title {
   font-size: 18px;
@@ -588,9 +591,4 @@ ul {
 }
 .offer-list-item:hover .overlay {
   transform: translateY(0);
-}
-.offer-title-text {
-  position: relative;
-  z-index: 1001;
-  background-color: #fff;
 }
